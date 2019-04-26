@@ -17,8 +17,9 @@ namespace Cursooooooooooo.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            ViewData["Message"] = "Faaala caraioo.";
+            ViewData["Aluno"] = "Marcelo Rondini";
+            ViewData["Email"] = "marcelosinnis@gmail.com";
             return View();
         }
 
